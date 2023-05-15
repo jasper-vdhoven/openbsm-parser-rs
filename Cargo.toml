@@ -1,0 +1,12 @@
+[package]
+name = "openbsm-parser-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+binread = "2.2.0"
+byteorder = "1.4.3"
+bytes = "1.4.0"
+clap = { version = "4.2.7", features = ["derive", "unicode"] }
